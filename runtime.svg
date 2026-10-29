@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="750" viewBox="0 0 1400 750">
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#17202a}.title{font-size:22px;font-weight:bold}.axis{stroke:#17202a;stroke-width:2}.grid{stroke:#d9e0e6;stroke-width:1}.bar{fill:#357edd}.bar-sparse{fill:#2ca25f}</style>
+<text x="700.0" y="35" text-anchor="middle" class="title">Assignment 2 runtime</text>
+<line x1="90" y1="70" x2="90" y2="530" class="axis"/>
+<line x1="90" y1="530" x2="1360" y2="530" class="axis"/>
+<text x="22" y="300.0" transform="rotate(-90 22 300.0)" text-anchor="middle">Median time (ms)</text>
+<text x="725.0" y="732" text-anchor="middle">Configuration</text>
+<line x1="90" y1="530.00" x2="1360" y2="530.00" class="grid"/>
+<text x="80" y="534.00" text-anchor="end">0.00</text>
+<line x1="90" y1="438.00" x2="1360" y2="438.00" class="grid"/>
+<text x="80" y="442.00" text-anchor="end">213.51</text>
+<line x1="90" y1="346.00" x2="1360" y2="346.00" class="grid"/>
+<text x="80" y="350.00" text-anchor="end">427.02</text>
+<line x1="90" y1="254.00" x2="1360" y2="254.00" class="grid"/>
+<text x="80" y="258.00" text-anchor="end">640.53</text>
+<line x1="90" y1="162.00" x2="1360" y2="162.00" class="grid"/>
+<text x="80" y="166.00" text-anchor="end">854.04</text>
+<line x1="90" y1="70.00" x2="1360" y2="70.00" class="grid"/>
+<text x="80" y="74.00" text-anchor="end">1067.55</text>
+<rect x="95.29" y="526.47" width="24.69" height="3.53" class="bar"><title>baseline_ijk n=32 d=1.00: 8.185900</title></rect>
+<text x="107.64" y="548" transform="rotate(65 107.64 548)" text-anchor="start">baseline_ijk n=32 d=1.00</text>
+<rect x="130.57" y="525.91" width="24.69" height="4.09" class="bar"><title>reordered_ikj n=32 d=1.00: 9.501100</title></rect>
+<text x="142.92" y="548" transform="rotate(65 142.92 548)" text-anchor="start">reordered_ikj n=32 d=1.00</text>
+<rect x="165.85" y="523.06" width="24.69" height="6.94" class="bar"><title>blocked n=32 d=1.00: 16.116900</title></rect>
+<text x="178.19" y="548" transform="rotate(65 178.19 548)" text-anchor="start">blocked n=32 d=1.00</text>
+<rect x="201.12" y="503.79" width="24.69" height="26.21" class="bar"><title>baseline_ijk n=64 d=1.00: 60.828800</title></rect>
+<text x="213.47" y="548" transform="rotate(65 213.47 548)" text-anchor="start">baseline_ijk n=64 d=1.00</text>
+<rect x="236.40" y="494.63" width="24.69" height="35.37" class="bar"><title>reordered_ikj n=64 d=1.00: 82.086100</title></rect>
+<text x="248.75" y="548" transform="rotate(65 248.75 548)" text-anchor="start">reordered_ikj n=64 d=1.00</text>
+<rect x="271.68" y="469.97" width="24.69" height="60.03" class="bar"><title>blocked n=64 d=1.00: 139.307200</title></rect>
+<text x="284.03" y="548" transform="rotate(65 284.03 548)" text-anchor="start">blocked n=64 d=1.00</text>
+<rect x="306.96" y="444.24" width="24.69" height="85.76" class="bar"><title>baseline_ijk n=96 d=1.00: 199.038300</title></rect>
+<text x="319.31" y="548" transform="rotate(65 319.31 548)" text-anchor="start">baseline_ijk n=96 d=1.00</text>
+<rect x="342.24" y="431.02" width="24.69" height="98.98" class="bar"><title>reordered_ikj n=96 d=1.00: 229.704300</title></rect>
+<text x="354.58" y="548" transform="rotate(65 354.58 548)" text-anchor="start">reordered_ikj n=96 d=1.00</text>
+<rect x="377.51" y="338.25" width="24.69" height="191.75" class="bar"><title>blocked n=96 d=1.00: 445.015300</title></rect>
+<text x="389.86" y="548" transform="rotate(65 389.86 548)" text-anchor="start">blocked n=96 d=1.00</text>
+<rect x="412.79" y="329.85" width="24.69" height="200.15" class="bar"><title>baseline_ijk n=128 d=1.00: 464.496500</title></rect>
+<text x="425.14" y="548" transform="rotate(65 425.14 548)" text-anchor="start">baseline_ijk n=128 d=1.00</text>
+<rect x="448.07" y="294.41" width="24.69" height="235.59" class="bar"><title>reordered_ikj n=128 d=1.00: 546.743400</title></rect>
+<text x="460.42" y="548" transform="rotate(65 460.42 548)" text-anchor="start">reordered_ikj n=128 d=1.00</text>
+<rect x="483.35" y="70.00" width="24.69" height="460.00" class="bar"><title>blocked n=128 d=1.00: 1067.552100</title></rect>
+<text x="495.69" y="548" transform="rotate(65 495.69 548)" text-anchor="start">blocked n=128 d=1.00</text>
+<rect x="518.62" y="526.39" width="24.69" height="3.61" class="bar-sparse"><title>dense_sparse_input n=32 d=0.01: 8.376200</title></rect>
+<text x="530.97" y="548" transform="rotate(65 530.97 548)" text-anchor="start">dense_sparse_input n=32 d=0.01</text>
+<rect x="553.90" y="529.94" width="24.69" height="0.06" class="bar-sparse"><title>sparse_csr n=32 d=0.01: 0.143100</title></rect>
+<text x="566.25" y="548" transform="rotate(65 566.25 548)" text-anchor="start">sparse_csr n=32 d=0.01</text>
+<rect x="589.18" y="503.25" width="24.69" height="26.75" class="bar-sparse"><title>dense_sparse_input n=64 d=0.01: 62.073300</title></rect>
+<text x="601.53" y="548" transform="rotate(65 601.53 548)" text-anchor="start">dense_sparse_input n=64 d=0.01</text>
+<rect x="624.46" y="529.86" width="24.69" height="0.14" class="bar-sparse"><title>sparse_csr n=64 d=0.01: 0.334000</title></rect>
+<text x="636.81" y="548" transform="rotate(65 636.81 548)" text-anchor="start">sparse_csr n=64 d=0.01</text>
+<rect x="659.74" y="443.90" width="24.69" height="86.10" class="bar-sparse"><title>dense_sparse_input n=96 d=0.01: 199.827200</title></rect>
+<text x="672.08" y="548" transform="rotate(65 672.08 548)" text-anchor="start">dense_sparse_input n=96 d=0.01</text>
+<rect x="695.01" y="529.73" width="24.69" height="0.27" class="bar-sparse"><title>sparse_csr n=96 d=0.01: 0.621600</title></rect>
+<text x="707.36" y="548" transform="rotate(65 707.36 548)" text-anchor="start">sparse_csr n=96 d=0.01</text>
+<rect x="730.29" y="329.50" width="24.69" height="200.50" class="bar-sparse"><title>dense_sparse_input n=128 d=0.01: 465.322200</title></rect>
+<text x="742.64" y="548" transform="rotate(65 742.64 548)" text-anchor="start">dense_sparse_input n=128 d=0.01</text>
+<rect x="765.57" y="529.57" width="24.69" height="0.43" class="bar-sparse"><title>sparse_csr n=128 d=0.01: 1.005500</title></rect>
+<text x="777.92" y="548" transform="rotate(65 777.92 548)" text-anchor="start">sparse_csr n=128 d=0.01</text>
+<rect x="800.85" y="526.42" width="24.69" height="3.58" class="bar-sparse"><title>dense_sparse_input n=32 d=0.05: 8.301600</title></rect>
+<text x="813.19" y="548" transform="rotate(65 813.19 548)" text-anchor="start">dense_sparse_input n=32 d=0.05</text>
+<rect x="836.12" y="529.88" width="24.69" height="0.12" class="bar-sparse"><title>sparse_csr n=32 d=0.05: 0.271300</title></rect>
+<text x="848.47" y="548" transform="rotate(65 848.47 548)" text-anchor="start">sparse_csr n=32 d=0.05</text>
+<rect x="871.40" y="503.64" width="24.69" height="26.36" class="bar-sparse"><title>dense_sparse_input n=64 d=0.05: 61.176600</title></rect>
+<text x="883.75" y="548" transform="rotate(65 883.75 548)" text-anchor="start">dense_sparse_input n=64 d=0.05</text>
+<rect x="906.68" y="529.46" width="24.69" height="0.54" class="bar-sparse"><title>sparse_csr n=64 d=0.05: 1.258500</title></rect>
+<text x="919.03" y="548" transform="rotate(65 919.03 548)" text-anchor="start">sparse_csr n=64 d=0.05</text>
+<rect x="941.96" y="444.04" width="24.69" height="85.96" class="bar-sparse"><title>dense_sparse_input n=96 d=0.05: 199.491800</title></rect>
+<text x="954.31" y="548" transform="rotate(65 954.31 548)" text-anchor="start">dense_sparse_input n=96 d=0.05</text>
+<rect x="977.24" y="528.64" width="24.69" height="1.36" class="bar-sparse"><title>sparse_csr n=96 d=0.05: 3.152000</title></rect>
+<text x="989.58" y="548" transform="rotate(65 989.58 548)" text-anchor="start">sparse_csr n=96 d=0.05</text>
+<rect x="1012.51" y="330.87" width="24.69" height="199.13" class="bar-sparse"><title>dense_sparse_input n=128 d=0.05: 462.145000</title></rect>
+<text x="1024.86" y="548" transform="rotate(65 1024.86 548)" text-anchor="start">dense_sparse_input n=128 d=0.05</text>
+<rect x="1047.79" y="526.99" width="24.69" height="3.01" class="bar-sparse"><title>sparse_csr n=128 d=0.05: 6.991100</title></rect>
+<text x="1060.14" y="548" transform="rotate(65 1060.14 548)" text-anchor="start">sparse_csr n=128 d=0.05</text>
+<rect x="1083.07" y="526.49" width="24.69" height="3.51" class="bar-sparse"><title>dense_sparse_input n=32 d=0.10: 8.147100</title></rect>
+<text x="1095.42" y="548" transform="rotate(65 1095.42 548)" text-anchor="start">dense_sparse_input n=32 d=0.10</text>
+<rect x="1118.35" y="529.76" width="24.69" height="0.24" class="bar-sparse"><title>sparse_csr n=32 d=0.10: 0.553900</title></rect>
+<text x="1130.69" y="548" transform="rotate(65 1130.69 548)" text-anchor="start">sparse_csr n=32 d=0.10</text>
+<rect x="1153.62" y="502.99" width="24.69" height="27.01" class="bar-sparse"><title>dense_sparse_input n=64 d=0.10: 62.680600</title></rect>
+<text x="1165.97" y="548" transform="rotate(65 1165.97 548)" text-anchor="start">dense_sparse_input n=64 d=0.10</text>
+<rect x="1188.90" y="528.70" width="24.69" height="1.30" class="bar-sparse"><title>sparse_csr n=64 d=0.10: 3.018800</title></rect>
+<text x="1201.25" y="548" transform="rotate(65 1201.25 548)" text-anchor="start">sparse_csr n=64 d=0.10</text>
+<rect x="1224.18" y="444.85" width="24.69" height="85.15" class="bar-sparse"><title>dense_sparse_input n=96 d=0.10: 197.613600</title></rect>
+<text x="1236.53" y="548" transform="rotate(65 1236.53 548)" text-anchor="start">dense_sparse_input n=96 d=0.10</text>
+<rect x="1259.46" y="525.99" width="24.69" height="4.01" class="bar-sparse"><title>sparse_csr n=96 d=0.10: 9.311800</title></rect>
+<text x="1271.81" y="548" transform="rotate(65 1271.81 548)" text-anchor="start">sparse_csr n=96 d=0.10</text>
+<rect x="1294.74" y="329.75" width="24.69" height="200.25" class="bar-sparse"><title>dense_sparse_input n=128 d=0.10: 464.740000</title></rect>
+<text x="1307.08" y="548" transform="rotate(65 1307.08 548)" text-anchor="start">dense_sparse_input n=128 d=0.10</text>
+<rect x="1330.01" y="521.97" width="24.69" height="8.03" class="bar-sparse"><title>sparse_csr n=128 d=0.10: 18.637700</title></rect>
+<text x="1342.36" y="548" transform="rotate(65 1342.36 548)" text-anchor="start">sparse_csr n=128 d=0.10</text>
+<rect x="1150" y="43" width="15" height="15" class="bar"/>
+<text x="1172" y="55" >Dense configuration</text>
+<rect x="1150" y="70" width="15" height="15" class="bar-sparse"/>
+<text x="1172" y="82" >Sparse configuration</text>
+</svg>
