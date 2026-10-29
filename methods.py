@@ -26,6 +26,23 @@ def dense_ijk(a: Matrix, b: Matrix) -> Matrix:
 
     return c
 
+def dense_ikj(a: Matrix, b: Matrix) -> Matrix:
+    """Dense multiplication using the reordered i-k-j loop order."""
+    n = len(a)
+    c = zeros(n)
+
+    for i in range(n):
+        for k in range(n):
+            aik = a[i][k]
+
+            if aik == 0.0:
+                continue
+
+            for j in range(n):
+                c[i][j] += aik * b[k][j]
+
+    return c
+
 
 def assert_close(
     actual: Matrix,
@@ -71,6 +88,7 @@ def self_test() -> None:
 
     result = dense_ijk(a, b)
     assert_close(result, expected)
+    assert_close(dense_ikj(a, b), expected)
 
 
 if __name__ == "__main__":
